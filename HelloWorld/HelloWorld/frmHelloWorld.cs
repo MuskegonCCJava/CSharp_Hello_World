@@ -16,5 +16,10 @@ namespace HelloWorld
         {
             InitializeComponent();
         }
+
+        private void btnSayHello_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello!");
+        }
     }
 }
